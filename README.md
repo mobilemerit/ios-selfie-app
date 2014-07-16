@@ -13,13 +13,9 @@ Features
 
 Screenshots
 -----------
-![Home screen with camera app opened][home]
-![Selfie screen after taking Selfie][selfie]
-![Share your Selfie][share]
-
-[home]: https://photos-4.dropbox.com/t/0/AADNRW9DWHly9LdHnRJWf3_8bxQXTVqFS8HQnhTUazplOQ/12/58915328/png/1024x768/3/1405519200/0/2/main.png/Hni_qay5eAJRMbH_9TYBLZB5UFzuknVKVcE82ZyT_J4 =250x "Home screen with camera app opened"
-[selfie]: https://photos-2.dropbox.com/t/0/AACj0F-EG4j3_p87TdC8bVz2ZAZUoCb01-Gn4uUylep6Jg/12/58915328/png/1024x768/3/1405519200/0/2/photo.png/J5oIW2hCbVDB4pz0q16-Uge3F-a1ZOUJJqnhoJlgGiU =250x "Selfie screen after taking Selfie"
-[share]:  https://photos-4.dropbox.com/t/0/AAASZr4TKeDYXDmNasihFsFhIwId7faMLB_MBNiCk3N35Q/12/58915328/png/1024x768/3/1405519200/0/2/share.png/WtiHa9aKeGFMB5cPVd5fMrFo3tVUk8Gm-fWdaT9gAl0 =250x "Share your selfie"
+<img src="https://photos-4.dropbox.com/t/0/AADNRW9DWHly9LdHnRJWf3_8bxQXTVqFS8HQnhTUazplOQ/12/58915328/png/1024x768/3/1405519200/0/2/main.png/Hni_qay5eAJRMbH_9TYBLZB5UFzuknVKVcE82ZyT_J4" alt="Home screen with camera app opened" style="width: 200px;"/>
+<img src="https://photos-2.dropbox.com/t/0/AACj0F-EG4j3_p87TdC8bVz2ZAZUoCb01-Gn4uUylep6Jg/12/58915328/png/1024x768/3/1405519200/0/2/photo.png/J5oIW2hCbVDB4pz0q16-Uge3F-a1ZOUJJqnhoJlgGiU" alt="Selfie screen after taking Selfie" style="width: 200px;"/>
+<img src="https://photos-4.dropbox.com/t/0/AAASZr4TKeDYXDmNasihFsFhIwId7faMLB_MBNiCk3N35Q/12/58915328/png/1024x768/3/1405519200/0/2/share.png/WtiHa9aKeGFMB5cPVd5fMrFo3tVUk8Gm-fWdaT9gAl0" alt="Share your selfie" style="width: 200px;"/>
 
 Todo
 ----
