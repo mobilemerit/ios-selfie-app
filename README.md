@@ -13,9 +13,9 @@ Features
 
 Screenshots
 -----------
-<img src="https://photos-4.dropbox.com/t/0/AADNRW9DWHly9LdHnRJWf3_8bxQXTVqFS8HQnhTUazplOQ/12/58915328/png/1024x768/3/1405519200/0/2/main.png/Hni_qay5eAJRMbH_9TYBLZB5UFzuknVKVcE82ZyT_J4" alt="Home screen with camera app opened" style="width: 200px;"/>
-<img src="https://photos-2.dropbox.com/t/0/AACj0F-EG4j3_p87TdC8bVz2ZAZUoCb01-Gn4uUylep6Jg/12/58915328/png/1024x768/3/1405519200/0/2/photo.png/J5oIW2hCbVDB4pz0q16-Uge3F-a1ZOUJJqnhoJlgGiU" alt="Selfie screen after taking Selfie" style="width: 200px;"/>
-<img src="https://photos-4.dropbox.com/t/0/AAASZr4TKeDYXDmNasihFsFhIwId7faMLB_MBNiCk3N35Q/12/58915328/png/1024x768/3/1405519200/0/2/share.png/WtiHa9aKeGFMB5cPVd5fMrFo3tVUk8Gm-fWdaT9gAl0" alt="Share your selfie" style="width: 200px;"/>
+![Home screen with camera app opened](https://photos-4.dropbox.com/t/0/AAD7efC5RN1ttIFKxQZ0-Wh4TK6zWGuzxw0gdnz702Z-0Q/12/58915328/png/1024x768/3/1405940400/0/2/main-250.png/Wvlsc49kUWat0bCR0KEqrgyD8g1ErCBjSqa7BgzzzNY)
+![Selfie screen after taking Selfie](https://photos-2.dropbox.com/t/0/AADZMhwe0_fKjQKZNlWjz1FGhlL7s-oyNAU_jxorjhli3g/12/58915328/png/1024x768/3/1405940400/0/2/photo-250.png/pqN_oarVmz1eTukSTvVpL10xyE7dfXQYRRSLwuYG8sM)
+![Share your selfie](https://photos-5.dropbox.com/t/0/AADBj0o-5YSrWwTacExNoQ1J1kFw8TTdxoH3NPgslDXUGg/12/58915328/png/1024x768/3/1405940400/0/2/share-250.png/Z0qkYUwdaGn1SpDY61ztZ7aSjZ6rLJ6dn9mG2vZtdXE)
 
 Todo
 ----
