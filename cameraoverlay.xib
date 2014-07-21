@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -20,11 +20,11 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9nE-Qz-bBV">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9nE-Qz-bBV">
                         <rect key="frame" x="0.0" y="436" width="320" height="132"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="CzS-Or-7xf">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="CzS-Or-7xf">
                                 <rect key="frame" x="18" y="14" width="284" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -36,8 +36,20 @@
                             </slider>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CzS-Or-7xf" firstAttribute="top" secondItem="9nE-Qz-bBV" secondAttribute="top" constant="14" id="Fba-vY-8YU"/>
+                            <constraint firstAttribute="trailing" secondItem="CzS-Or-7xf" secondAttribute="trailing" constant="20" id="LLv-zc-IuY"/>
+                            <constraint firstAttribute="bottom" secondItem="CzS-Or-7xf" secondAttribute="bottom" constant="88" id="LRM-4k-PLt"/>
+                            <constraint firstAttribute="height" constant="132" id="goy-8F-RZH"/>
+                            <constraint firstItem="CzS-Or-7xf" firstAttribute="leading" secondItem="9nE-Qz-bBV" secondAttribute="leading" constant="20" id="oab-j0-dgD"/>
+                        </constraints>
                     </view>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="1nM-bE-L03" firstAttribute="top" secondItem="9nE-Qz-bBV" secondAttribute="bottom" id="7MW-2Q-3Ri"/>
+                    <constraint firstItem="9nE-Qz-bBV" firstAttribute="leading" secondItem="yqL-F8-xco" secondAttribute="leading" id="Yqw-bx-lXZ"/>
+                    <constraint firstAttribute="trailing" secondItem="9nE-Qz-bBV" secondAttribute="trailing" id="eY0-93-uYR"/>
+                </constraints>
             </view>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DSg-jx-mQz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DSg-jx-mQz">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -16,20 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c4b-9j-bIx" userLabel="Image Container">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4b-9j-bIx" userLabel="Image Container">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UvH-7y-NXi">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UvH-7y-NXi">
                                         <rect key="frame" x="0.0" y="22" width="320" height="524"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="UvH-7y-NXi" secondAttribute="trailing" id="V7e-Zd-gAU"/>
+                                    <constraint firstItem="UvH-7y-NXi" firstAttribute="top" secondItem="c4b-9j-bIx" secondAttribute="top" constant="22" id="Y4j-X1-VOq"/>
+                                    <constraint firstAttribute="bottom" secondItem="UvH-7y-NXi" secondAttribute="bottom" constant="-22" id="kfd-fh-X9h"/>
+                                    <constraint firstItem="UvH-7y-NXi" firstAttribute="leading" secondItem="c4b-9j-bIx" secondAttribute="leading" id="xjX-SV-NLb"/>
+                                </constraints>
                             </view>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cCD-SG-SZw">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cCD-SG-SZw">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Vgb-sQ-Zek"/>
+                                </constraints>
                                 <items>
                                     <barButtonItem title="Save" id="TJJ-dk-RB4">
                                         <connections>
@@ -52,6 +61,15 @@
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="c4b-9j-bIx" secondAttribute="trailing" id="3nb-Ft-V2h"/>
+                            <constraint firstItem="cCD-SG-SZw" firstAttribute="top" secondItem="c4b-9j-bIx" secondAttribute="bottom" id="87m-tV-x2U"/>
+                            <constraint firstItem="c4b-9j-bIx" firstAttribute="top" secondItem="hZF-M8-z3G" secondAttribute="top" id="Jhx-j9-sFd"/>
+                            <constraint firstItem="c4b-9j-bIx" firstAttribute="leading" secondItem="hZF-M8-z3G" secondAttribute="leading" id="Sjq-A9-u5w"/>
+                            <constraint firstAttribute="trailing" secondItem="cCD-SG-SZw" secondAttribute="trailing" id="Ucs-L6-Rva"/>
+                            <constraint firstItem="gMV-Bg-MVF" firstAttribute="top" secondItem="cCD-SG-SZw" secondAttribute="bottom" id="fgA-75-4aV"/>
+                            <constraint firstItem="cCD-SG-SZw" firstAttribute="leading" secondItem="hZF-M8-z3G" secondAttribute="leading" id="lbB-OH-R4w"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="imageContainer" destination="c4b-9j-bIx" id="IBI-Uk-lOj"/>
